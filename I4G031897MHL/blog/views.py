@@ -3,7 +3,7 @@ from django.views.generic.list import ListView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic.detail import DetailView
 
-from DjangoCrud.I4G031897MHL.blog.models import Post
+from .models import Post
 
 
 class PostListView(ListView):
